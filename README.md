@@ -14,7 +14,7 @@ A custom interface for tf2. This hud was made from ahud (https://github.com/n0kk
 
 * [Main Menu](http://imgur.com/KFqjrvd)
 * [Regular Health](http://imgur.com/99VNQXl)
-* [Buffed HP](http://i.imgur.com/9NbLjtH.jpg)
+* [Buffed HP](http://imgur.com/Jl5sJXs)
 * [Low HP](http://imgur.com/cpUrC8s)
 
 More screenshots can be found at the [Imgur album](http://imgur.com/a/19iLP).
