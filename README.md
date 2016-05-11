@@ -1,5 +1,5 @@
 # CodeHud
-A custom interface for tf2. This hud was made from ahud (https://github.com/n0kk/ahud)
+A custom interface for tf2. This hud was made from ahud (https://github.com/n0kk/ahud) Credits to n0kk.
 ####Features
 
 * Custom colors
