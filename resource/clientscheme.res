@@ -40,10 +40,10 @@ Scheme
 		"ShadowBlack"			"7 7 7 255"
 		"HudBlack"				"0 0 0 200"
 		
-		"ahudBlue"				"72 112 125 255"
-		"ahudDarkBlue"			"46 73 82 255"
-		"ahudRed"				"158 64 61 255"
-		"ahudDarkRed"			"102 48 46 255"
+		"ahudBlue"				"22 124 202 255"
+		"ahudDarkBlue"			"22 124 202 255"
+		"ahudRed"				"202 52 64 255"
+		"ahudDarkRed"			"202 52 64 255"
 		
 		"ahudGreen"				"92 122 90 255"
 		"ahudDarkGreen"			"38 53 36 255"
@@ -76,9 +76,9 @@ Scheme
 		"QuestBonusHighlight"		"150 160 255 255"
 		
 		"White"				"235 235 235 255"
-		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255"
-		"Blue"				"0 28 162 140"
+		"Red"				"202 52 64 255"
+		"RedSolid"			"202 52 64 255"
+		"Blue"				"22 124 202 255"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
 		"BrightYellow"		"251 235 0 255"
@@ -92,11 +92,11 @@ Scheme
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		
-		"HUDBlueTeam"		"104 124 155 127"
-		"HUDRedTeam"		"180 92 77 127"
+		"HUDBlueTeam"		"22 124 202 255"
+		"HUDRedTeam"		"202 52 64 255"
 		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
+		"HUDBlueTeamSolid"	"22 124 202 255"
+		"HUDRedTeamSolid"	"202 52 64 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
@@ -1623,7 +1623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"

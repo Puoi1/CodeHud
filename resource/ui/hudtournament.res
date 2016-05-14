@@ -482,7 +482,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"image"			"../HUD/tournament_panel_blu"
-		"fillcolor"	"ahudBlue"
+		"fillcolor"	"22 124 202 255"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -492,17 +492,17 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 
 		if_competitive
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 
 		if_readymode
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 	"HudTournamentBLUEBG2"
@@ -519,7 +519,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"image"			"../HUD/tournament_panel_blu"
-		"fillcolor"	"ahudDarkBlue"
+		"fillcolor"	"22 124 202 255"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -529,17 +529,17 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 
 		if_competitive
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 
 		if_readymode
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 	"TournamentBLUELabel"
@@ -623,7 +623,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"image"			"../HUD/tournament_panel_red"
-		"fillcolor"	"ahudRed"
+		"fillcolor"	"202 52 64 255"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -633,17 +633,17 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 
 		if_competitive
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 
 		if_readymode
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 	"HudTournamentREDBG2"
@@ -660,7 +660,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"image"			"../HUD/tournament_panel_red"
-		"fillcolor"	"ahudDarkRed"
+		"fillcolor"	"202 52 64 255"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -670,17 +670,17 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 
 		if_competitive
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 
 		if_readymode
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 	"TournamentREDLabel"
