@@ -44,7 +44,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				""
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -56,7 +56,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
+		"font"					"Code10"
 		"xpos"					"25"
 		"ypos"					"23"
 		"zpos"					"2"
@@ -69,7 +69,9 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}		
+
+	
 	
 	"ItemEffectMeterCount"
 	{

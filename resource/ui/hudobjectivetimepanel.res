@@ -18,7 +18,7 @@
 		"draw_corner_width"	"0"
 		"draw_corner_height" 	"0"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -41,7 +41,7 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -65,9 +65,10 @@
 		"font"			"NormalCode10"
 		"fgcolor"			"ahudWhite"
 		
-		if_comp
+		if_match
 		{
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -84,7 +85,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -108,9 +109,10 @@
 		"font"			"NormalCode10"
 		"fgcolor"			"ahudWhite"
 		
-		if_comp
+		if_match
 		{
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}			
 	"OvertimeBG"
@@ -127,7 +129,7 @@
 		"fillcolor"	"HudBlack"	
 		"PaintBackgroundType"	"0"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -151,9 +153,10 @@
 		"font"			"NormalCode10"
 		"fgcolor"			"ahudWhite"
 		
-		if_comp
+		if_match
 		{
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}			
 	"SuddenDeathBG"
@@ -170,7 +173,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -195,9 +198,10 @@
 		"font"				"NormalCode10"
 		"fgcolor"			"ahudWhite"
 		
-		if_comp
+		if_match
 		{
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}	
 	"SetupBG"
@@ -215,7 +219,7 @@
 		"PaintBackgroundType"	"0"
 		
 
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -239,10 +243,11 @@
 		"font"			"NormalCode10"
 		"fgcolor"		"ahudWhite"
 		
-		if_comp
+		if_match
 		{
 			"xpos"					"c-44"
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}
 	"ServerTimeLimitLabelBG"
@@ -259,7 +264,7 @@
 		"fillcolor"	"HudBlack"	
 		"PaintBackgroundType"	"0"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}	

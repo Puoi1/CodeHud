@@ -69,6 +69,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"0 0 0 200"
+		"bgcolor_override"		"0 0 0 100"
 	}
 }

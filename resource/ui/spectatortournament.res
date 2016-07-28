@@ -50,7 +50,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			  "NormalCode9"
+				"font"			  "NormalCode10"
 				"xpos"			  "44"
 				"ypos"			  "4"
 				"zpos"			  "5"

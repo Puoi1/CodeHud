@@ -48,7 +48,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode8"
+		"font"					"Code8"
 		"fgcolor_override"		"150 150 150 255"
 	}
 
@@ -69,6 +69,6 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"0 0 0 200"
+		"bgcolor_override"		"0 0 0 100"
 	}
 }

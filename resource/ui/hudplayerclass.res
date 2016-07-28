@@ -78,17 +78,17 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"99999"
-		"ypos"			"99999"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"		
-		"wide"			"90"
-		"tall"			"15"
+		"wide"			"9999"
+		"tall"			"9999"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
-		"image"				"/replay/thumbnails/bg_red"	
-		"teambg_2"			"/replay/thumbnails/bg_red"
-		"teambg_3"			"/replay/thumbnails/bg_blu"
+		"image"				"../hud/character_red_bg_clipped"	
+		"teambg_2"			"../hud/character_red_bg_clipped"
+		"teambg_3"			"../hud/character_blue_bg_clipped"
 	}
 
 	"classmodelpanel"
@@ -96,7 +96,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"5"
+		"xpos"			"15"
 		"ypos"			"r200"
 		"zpos"			"2"		
 		"wide"			"100"

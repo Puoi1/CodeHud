@@ -11,9 +11,9 @@ Scheme
 		"CrosshairDamage"		"255 0 0 255"		// For no damage flash, set to the
 													// same value as Crosshair
 		
-		"HP"					"243 243 243 255"
-		"HP Buff"				"0 255 127 255"
-		"HP Low"				"200 45 45 255"
+		"HP"					"255 255 255 255"
+		"HP Buff"				"53 216 114 255"
+		"HP Low"				"255 206 115 255"
 		
 		"Damage Numbers"		"255 255 0 255"
 		"Healing Numbers"		"0 255 127 255"
@@ -40,10 +40,10 @@ Scheme
 		"ShadowBlack"			"7 7 7 255"
 		"HudBlack"				"0 0 0 200"
 		
-		"ahudBlue"				"22 124 202 255"
-		"ahudDarkBlue"			"22 124 202 255"
-		"ahudRed"				"202 52 64 255"
-		"ahudDarkRed"			"202 52 64 255"
+		"ahudBlue"				"72 112 125 255"
+		"ahudDarkBlue"			"46 73 82 255"
+		"ahudRed"				"158 64 61 255"
+		"ahudDarkRed"			"102 48 46 255"
 		
 		"ahudGreen"				"92 122 90 255"
 		"ahudDarkGreen"			"38 53 36 255"
@@ -76,9 +76,9 @@ Scheme
 		"QuestBonusHighlight"		"150 160 255 255"
 		
 		"White"				"235 235 235 255"
-		"Red"				"202 52 64 255"
-		"RedSolid"			"202 52 64 255"
-		"Blue"				"22 124 202 255"
+		"Red"				"192 28 0 140"
+		"RedSolid"			"192 28 0 255"
+		"Blue"				"0 28 162 140"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
 		"BrightYellow"		"251 235 0 255"
@@ -92,11 +92,11 @@ Scheme
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		
-		"HUDBlueTeam"		"22 124 202 255"
-		"HUDRedTeam"		"202 52 64 255"
+		"HUDBlueTeam"		"104 124 155 127"
+		"HUDRedTeam"		"180 92 77 127"
 		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"22 124 202 255"
-		"HUDRedTeamSolid"	"202 52 64 255"
+		"HUDBlueTeamSolid"	"104 124 155 255"
+		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
@@ -1624,7 +1624,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-Bold"
-				"tall"		"20"
+				"tall"		"15"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -4193,6 +4193,18 @@ Scheme
 			}
 		}
 
+		"MMenuPlayListDesc"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"9"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+
 	}
 
 	//
@@ -6252,6 +6264,32 @@ Scheme
 			}
 		}
 		
+		MainMenuButtonGlow
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"178 83 22 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+
+		MainMenuButtonGlow2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"238 103 17 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
 		NotificationDefault
 		{
 			"bordertype"			"scalable_image"
@@ -6345,7 +6383,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"button_holder_central"
+			"image"					"replay/thumbnails/blank"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6417,6 +6455,31 @@ Scheme
 			"image"					"new_corner"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
+
+		StoreHighlightedBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"featured_corner"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+
+		StoreHighlightedBackgroundBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_featured_item_bg01"
+			"src_corner_height"		"80"				// pixels inside the image
+			"src_corner_width"		"30"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
@@ -6547,6 +6610,20 @@ Scheme
 				{
 					"color" "Blank"
 					"offset" "0 0"
+				}
+			}
+		}
+
+		SortCategoryBorder
+		{
+			"inset" "0 0 1 1"
+	
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
 				}
 			}
 		}
@@ -6730,6 +6807,30 @@ Scheme
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
 		}
+
+		InnerShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		InnerShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -6786,6 +6887,16 @@ Scheme
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"
+		}
+	      "12"
+		{
+			"font"	"resource/fonts/AvenirLTStd-Black.otf"
+			"name"	"AvenirLTStd-Black"
+		}
+		"13"
+		{
+			"font"	"resource/fonts/AvenirLTStd-Medium.otf"
+			"name"	"AvenirLTStd-Medium"
 		}
 	}
 }

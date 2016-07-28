@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"NormalCode10"
+		"font"			"NormalCode12"
 		"xpos"			"40"
 		"ypos"			"25"
 		"zpos"			"1"

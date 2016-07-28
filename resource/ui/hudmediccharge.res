@@ -21,10 +21,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c101"
-		"ypos"			"30"
+		"xpos"			"c-60"
+		"ypos"			"14"
 		"zpos"			"2"
-		"wide"			"115"
+		"wide"			"120"
 		"tall"			"42"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -35,7 +35,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code55"
+		"font"			"Code20"
 		"fgcolor"		"ChargePercent"
 	}
 
@@ -43,10 +43,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c103"
-		"ypos"			"32"
+		"xpos"			"c-59"
+		"ypos"			"15"
 		"zpos"			"2"
-		"wide"			"115"
+		"wide"			"120"
 		"tall"			"42"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -57,7 +57,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code55"
+		"font"			"Code20"
 		"fgcolor"		"ShadowBlack"
 	}
 
@@ -105,10 +105,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c-75"
+		"xpos"			"c-60"
 		"ypos"			"44"
 		"zpos"			"3"
-		"wide"			"150"
+		"wide"			"120"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -119,7 +119,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NormalCode10"
+		"font"			"Code10"
 		"fgcolor"	"150 150 150 255"
 	}	
 
@@ -128,11 +128,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"c102"
-		"ypos"			"29"
+		"xpos"			"c-60"
+		"ypos"			"44"
 		"zpos"			"1"
-		"wide"			"115"
-		"tall"			"43"				
+		"wide"			"120"
+		"tall"			"2"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -141,7 +141,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"Ubercharge Meter"
-		"bgcolor_override"		"0 0 0 200"
+		"bgcolor_override"		"0 0 0 100"
 	}
 	"ChargeMeter1"
 	{	

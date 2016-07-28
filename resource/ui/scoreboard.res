@@ -329,7 +329,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreBG"
-		"font"			"Code34"
+		"font"			"NormalCode34"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c10"
