@@ -93,6 +93,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"Disconnect"
 		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
 
 
 		"sound_depressed"	"UI/buttonclick.wav"

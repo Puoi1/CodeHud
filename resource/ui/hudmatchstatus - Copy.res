@@ -205,6 +205,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
+		
 	}	
 
 	"BGFrame"
@@ -216,17 +217,10 @@
 		"zpos"				"0"
 		"wide"				"365"
 		"tall"				"28"
-		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
 		"border"			"NoBorder"
-
-		if_match
-		{
-			"visible"		"1"
-		}
 	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -300,11 +294,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_base_x"	"c-90"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_base_x"	"c90"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -314,8 +308,8 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
+			"color_portrait_bg_red"	"158 64 61 255"
+			"color_portrait_bg_blue"	"72 112 125 255"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"84 191 58 255"
@@ -556,7 +550,7 @@
 		"tall"			"260"
 		"visible"		"0"
 		"enabled"		"1"
-
+		
 		if_large
 		{
 			"ypos"			"65"
@@ -567,11 +561,11 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueTeamBG"
-			"xpos"			"0"
-			"ypos"			"10"
+			"xpos"			"6"
+			"ypos"			"19"
 			"zpos"			"2"
-			"wide"			"147"
-			"tall"			"36"
+			"wide"			"136"
+			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -600,7 +594,7 @@
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"center"
-			"xpos"			"48"
+			"xpos"			"50"
 			"ypos"			"13"
 			"zpos"			"20"
 			"wide"			"95"
@@ -615,7 +609,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
-			"xpos"			"11"
+			"xpos"			"8"
 			"ypos"			"10"
 			"zpos"			"5"	
 			"wide"			"35"
@@ -630,13 +624,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueLeaderAvatarBG"
-			"xpos"			"9"
+			"xpos"			"6"
 			"ypos"			"8"
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"ahudDarkBlue"
 		}
 		"BluePlayerList"
@@ -647,16 +641,16 @@
 			"ypos"			"38"
 			"zpos"			"1"
 			"wide"			"136"
-			"tall"			"205"
+			"tall"			"175"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
+			"linespacing"	"25"
+			"linegap"		"0"
 			//"show_columns"	"1"
-
+			
 			if_large
 			{
 				"tall"			"315"
@@ -676,7 +670,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
+			
 			if_large
 			{
 				"tall"			"325"
@@ -693,7 +687,7 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 
 		if_large
@@ -701,16 +695,16 @@
 			"ypos"			"65"
 			"tall"			"385"
 		}
-
+		
 		"RedTeamBG"
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RedTeamBG"
-			"xpos"			"0"
-			"ypos"			"10"
+			"xpos"			"6"
+			"ypos"			"19"
 			"zpos"			"2"
-			"wide"			"147"
-			"tall"			"36"
+			"wide"			"136"
+			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -739,7 +733,7 @@
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"center"
-			"xpos"			"5"
+			"xpos"			"11"
 			"ypos"			"13"
 			"zpos"			"20"
 			"wide"			"95"
@@ -754,7 +748,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"RedLeaderAvatar"
-			"xpos"			"102"
+			"xpos"			"106"
 			"ypos"			"10"
 			"zpos"			"5"
 			"wide"			"35"
@@ -769,13 +763,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RedLeaderAvatarBG"
-			"xpos"			"100"
+			"xpos"			"104"
 			"ypos"			"8"
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"ahudDarkRed"
 		}
 		"RedPlayerList"
@@ -786,16 +780,16 @@
 			"ypos"			"38"
 			"zpos"			"1"
 			"wide"			"136"
-			"tall"			"205"
+			"tall"			"175"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
+			"linespacing"	"25"
+			"linegap"		"0"
 			//"show_columns"	"1"
-
+			
 			if_large
 			{
 				"tall"			"315"
@@ -815,7 +809,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
+			
 			if_large
 			{
 				"tall"			"325"
