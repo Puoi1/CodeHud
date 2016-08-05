@@ -1478,7 +1478,7 @@
                 "ControlName"	        "CExLabel"
                 "fieldName"	        "VersionLabel"
                 "font"	        "Code14"
-                "labelText"	        "Version 1.0" //#WelcomeBack or %playername%
+                "labelText"	        "Version 2.0" //#WelcomeBack or %playername%
                 "textAlignment"	    "west"
                 "xpos"	                "35"
                 "ypos"	                "50"
